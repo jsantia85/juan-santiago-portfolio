@@ -3,7 +3,26 @@
   padding: 0;
 }
 
+body  {
+  background-color: grey;
+}
+
 #juanSantiagoJpg {
   max-width: 300px;
   max-height: 300px;
+}
+
+header {
+  text-align: center;
+  margin: 5px auto 10px auto;
+}
+
+li {
+  padding: 5px;
+  display: inline;
+  margin: 5px;
+}
+
+div {
+  text-align: center;
 }
