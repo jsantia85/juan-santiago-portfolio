@@ -4,7 +4,7 @@
 }
 
 body  {
-  background-color: #6f1d1b;
+  background-color: #92140c;
 }
 
 #juanSantiagoJpg {
@@ -13,7 +13,7 @@ body  {
 }
 
 header {
-  background-color: #bb9457;
+  background-color: #1e1e24;
   text-align: center;
   margin: 0px auto 10px auto;
   height: 30px;
@@ -25,11 +25,11 @@ li {
 
 #main {
   text-align: center;
-  color: #ffe6a7;
+  color: #FFF8F0;
 }
 
 #aboutPage {
   text-align: center;
-  color: #ffe6a7;
+  color: #FFF8F0;
   margin-top: 50px;
 }
