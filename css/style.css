@@ -21,6 +21,7 @@ header {
   height: 30px;
 }
 
+
 li {
   display: inline;
 }
@@ -34,4 +35,11 @@ div {
 
 #about {
   margin-top: 200px;
+}
+
+#aboutBtn, #resumeBtn, #workBtn, #contactBtn {
+  background-color: #4D4637;
+  color: white;
+  min-width: 40px;
+  min-height: 30px;
 }
