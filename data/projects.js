@@ -1,4 +1,4 @@
-const projectList = [
+const projects = [
   { 
     image: "imgs/Tic-Tac-Toe.jpg.png",
     title: "Tic-Tac-Toe",
