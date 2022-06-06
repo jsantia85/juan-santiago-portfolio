@@ -82,4 +82,7 @@ ion-icon {
     max-width: 1000px;
     margin: 200px auto;
   }
+  #bio {
+    text-align: center;
+  }
 }
