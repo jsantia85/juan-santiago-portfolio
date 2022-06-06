@@ -14,7 +14,7 @@ console.log(btns)
 /*----------------------------- Event Listeners -----------------------------*/
 btns.addEventListener("mouseover", function( event ) {
   // highlight the mouseover target
-  event.target.style.color = "#D9D065";
+  event.target.style.color = "#a4161a";
 
   // reset the color after a short delay
   setTimeout(function() {

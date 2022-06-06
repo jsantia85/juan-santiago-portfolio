@@ -4,7 +4,7 @@
 }
 
 body  {
-  background-color: #6F1D1B;
+  background-color: #f8f9fa;
   font-family: 'Kdam Thmor Pro', sans-serif;
 }
 
@@ -16,7 +16,7 @@ body  {
 }
 
 header {
-  background-color: #bb9457;
+  background-color: #212529;
   text-align: center;
   margin: 0px auto 10px auto;
   height: 30px;
@@ -28,7 +28,7 @@ li {
 
 div {
   text-align: center;
-  color: #FFE6A7;
+  color: #000000;
   max-width: 500px;
   margin: 200px auto;
 }
@@ -37,8 +37,8 @@ div {
   margin-top: 0;
 }
 #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
-  background-color: #4D4637;
-  color: white;
+  background-color: #6c757d;
+  color: #F8F9FA;
   min-width: 40px;
   min-height: 30px;
 }
