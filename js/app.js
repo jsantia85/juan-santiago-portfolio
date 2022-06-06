@@ -8,8 +8,7 @@
 
 /*------------------------ Cached Element References ------------------------*/
 const btns = document.getElementById('btns')
-console.log(btns)
-
+// console.log(btns)
 
 /*----------------------------- Event Listeners -----------------------------*/
 btns.addEventListener("mouseover", function( event ) {
@@ -22,4 +21,9 @@ btns.addEventListener("mouseover", function( event ) {
   }, 500);
 }, false);
 
+
 /*-------------------------------- Functions --------------------------------*/
+function fadeInTitle() {
+  const titleEl = document.querySelector(".title");
+  titleEl.classList.add("fadeIn")
+}

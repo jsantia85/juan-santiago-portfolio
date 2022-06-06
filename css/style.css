@@ -42,3 +42,12 @@ div {
   min-width: 40px;
   min-height: 30px;
 }
+
+.title {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.fadeIn {
+  opacity: 1;
+}
