@@ -10,8 +10,8 @@
 const btns = document.getElementById('btns')
 // console.log(btns)
 
-const aboutSection = document.getElementById('juanSantiagoJpg')
-console.log(aboutSection)
+const juanSantiago = document.getElementById('juanSantiagoJpg')
+// console.log(juanSantiago)
 /*----------------------------- Event Listeners -----------------------------*/
 btns.addEventListener("mouseover", function(event) {
   // highlight the mouseover target
@@ -23,7 +23,7 @@ btns.addEventListener("mouseover", function(event) {
   }, 500);
 }, false);
 
-aboutSection.addEventListener("mouseover", function(event) {
+juanSantiago.addEventListener("mouseover", function(event) {
   event.target.style.boxShadow = "10px 5px 5px #a4161a";
 
   setTimeout(function() {
