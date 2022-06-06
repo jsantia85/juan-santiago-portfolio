@@ -35,3 +35,4 @@ function fadeInTitle() {
   const titleEl = document.querySelector(".title");
   titleEl.classList.add("fadeIn")
 }
+
