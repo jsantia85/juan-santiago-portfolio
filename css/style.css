@@ -67,8 +67,8 @@ ion-icon {
   font-size: 64px;
 }
 
-#contactSection {
-  margin-bottom: 50px;
+#contactSection, #aboutSection, #resumeSection, #workSection {
+  margin-bottom: 20px;
 }
 
 @media only screen and (min-width: 768px) {
