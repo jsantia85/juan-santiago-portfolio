@@ -39,8 +39,8 @@ div {
 #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
   background-color: #6c757d;
   color: #F8F9FA;
-  min-width: 40px;
-  min-height: 30px;
+  min-width: 20px;
+  min-height: 20px;
 }
 
 .title {
@@ -53,6 +53,10 @@ div {
 }
 
 @media only screen and (min-width: 768px) {
+  header {
+    background-color: #212529;
+    text-align: right;
+  }
   div {
     text-align: center;
     color: #000000;
