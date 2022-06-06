@@ -21,7 +21,6 @@ header {
   height: 30px;
 }
 
-
 li {
   display: inline;
 }
@@ -30,13 +29,12 @@ div {
   text-align: center;
   color: #FFE6A7;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 200px auto;
 }
 
-#about {
-  margin-top: 200px;
+#main {
+  margin-top: 0;
 }
-
 #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
   background-color: #4D4637;
   color: white;
