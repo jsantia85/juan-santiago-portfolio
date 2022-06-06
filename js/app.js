@@ -10,11 +10,11 @@
 const btns = document.getElementById('btns')
 // console.log(btns)
 
-const aboutSection = document.getElementById('aboutSection')
+const aboutSection = document.getElementById('juanSantiagoJpg')
 console.log(aboutSection)
 /*----------------------------- Event Listeners -----------------------------*/
 btns.addEventListener("mouseover", function(event) {
-  // highlight the mouseOver target
+  // highlight the mouseover target
   event.target.style.color = "#a4161a";
 
   // reset the color after a short delay
@@ -24,13 +24,11 @@ btns.addEventListener("mouseover", function(event) {
 }, false);
 
 aboutSection.addEventListener("mouseover", function(event) {
-  //highlight the mouseOver target
-  event.target.style.textDecoration = "underline";
+  event.target.style.boxShadow = "10px 5px 5px #a4161a";
 
-  //reset underline after short delay
   setTimeout(function() {
-    event.target.style.textDecoration = ""
-  }, 1000);
+    event.target.style.boxShadow = ""
+  }, 500);
 }, false)
 /*-------------------------------- Functions --------------------------------*/
 function fadeInTitle() {
