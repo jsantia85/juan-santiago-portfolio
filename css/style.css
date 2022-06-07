@@ -7,7 +7,7 @@ body {
   /* Use a system font, if none are available use an available sans-sarif font */
   font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
-  margin: 0;
+  /* margin: 0; */
 }
 
 #juanSantiagoJpg {
@@ -26,18 +26,10 @@ li {
   display: inline;
 }
 
-div {
+#main {
   text-align: center;
-  color: #000000;
-  max-width: 500px;
-  margin: 200px auto;
-  padding: 20px 20px;
 }
 
-#main {
-  margin-top: 0;
-  text-align: center;
-}
 #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
   background-color: #6c757d;
   color: #F8F9FA;
@@ -51,15 +43,12 @@ div {
   color: #aaaaaa;
 }
 
-#bio {
-  text-align: justify;
-}
-
 ion-icon {
   font-size: 64px;
 }
 
 #contactSection, #aboutSection, #resumeSection, #workSection {
+  margin-top: 500px;
   margin-bottom: 20px;
 }
 
@@ -67,7 +56,7 @@ ion-icon {
   padding: 0;
 }
 
-@media only screen and (min-width: 768px) {
+/* @media only screen and (min-width: 768px) {
   header {
     background-color: #212529;
     text-align: right;
@@ -98,4 +87,4 @@ ion-icon {
     justify-content: center;
     width: 100%;
   }
-}
+} */
