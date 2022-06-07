@@ -8,22 +8,14 @@
 
 /*------------------------ Cached Element References ------------------------*/
 const btns = document.getElementById('btns')
-// console.log(btns)
-
 const juanSantiago = document.getElementById('juanSantiagoJpg')
-// console.log(juanSantiago)
 
 import {projects} from "../js/projects.js"
-
 const cardContainer = document.getElementById("card-container")
-
-// console.log(cardContainer)
 /*----------------------------- Event Listeners -----------------------------*/
 btns.addEventListener("mouseover", function(event) {
-  // highlight the mouseover target
   event.target.style.color = "#a4161a";
 
-  // reset the color after a short delay
   setTimeout(function() {
     event.target.style.color = "";
   }, 500);
@@ -59,5 +51,3 @@ let projectMarkup = projects.map(project =>
   ).join('')
   
   cardContainer.innerHTML = projectMarkup
-  
-  // console.log(projectMarkup)
