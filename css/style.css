@@ -66,6 +66,7 @@ ion-icon {
   padding: 0;
 }
 
+
 @media only screen and (min-width: 768px) {
   header {
     background-color: #212529;
@@ -79,5 +80,22 @@ ion-icon {
   }
   #bio {
     text-align: center;
+  }
+  .card {
+    margin: 10px;
+  }
+  
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  #card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
   }
 }
