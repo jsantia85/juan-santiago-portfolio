@@ -44,15 +44,6 @@ div {
   min-height: 20px;
 }
 
-.title {
-  opacity: 0;
-  transition: opacity 3s ease;
-}
-
-.fadeIn {
-  opacity: 1;
-}
-
 .socialIcon {
   text-decoration: none;
   margin: 0 10px;
