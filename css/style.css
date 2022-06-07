@@ -36,6 +36,7 @@ div {
 
 #main {
   margin-top: 0;
+  text-align: center;
 }
 #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
   background-color: #6c757d;
@@ -66,7 +67,6 @@ ion-icon {
   padding: 0;
 }
 
-
 @media only screen and (min-width: 768px) {
   header {
     background-color: #212529;
@@ -75,8 +75,8 @@ ion-icon {
   div {
     text-align: center;
     color: #000000;
-    max-width: 1000px;
-    margin: 200px auto;
+    max-width: none;
+    margin: none;
   }
   #bio {
     text-align: center;
