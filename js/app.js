@@ -28,11 +28,18 @@ juanSantiago.addEventListener("mouseover", function(event) {
     event.target.style.boxShadow = ""
   }, 500);
 }, false)
-/*-------------------------------- Functions --------------------------------*/
-function fadeInTitle() {
+
+document.addEventListener('load', function(event) {
+  console.log(event)
+})
+
+window.onload = (event) => {
   const titleEl = document.querySelector(".title");
   titleEl.classList.add("fadeIn")
-}
+};
+
+
+/*-------------------------------- Functions --------------------------------*/
 
 let projectMarkup = projects.map(project => 
   `
