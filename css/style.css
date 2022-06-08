@@ -28,6 +28,7 @@ li {
 
 #main {
   text-align: center;
+  padding: 0 10px;
 }
 
 #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
@@ -54,6 +55,14 @@ ion-icon {
 
 #btns {
   padding: 0;
+}
+
+#card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
 }
 
 /* @media only screen and (min-width: 768px) {
