@@ -12,6 +12,7 @@ html {
   }
   header {
     background-color: #404040;
+    text-align: center;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
     background-color: #282828;
@@ -32,6 +33,7 @@ html {
   }
   header {
     background-color: #282828;
+    text-align: center;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
     background-color: #404040;
@@ -104,6 +106,7 @@ ion-icon {
 footer {
   margin-top: 100px;
 }
+
 
 .title {
   opacity: 0;
