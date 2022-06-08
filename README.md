@@ -6,3 +6,5 @@ The following is the link to the [portfolio](https://juan-santiago-portfolio-99.
 
 
 ## Screenshot:
+
+![This is an image](assets/imgs/screen-shot-main-page.png)
