@@ -2,12 +2,23 @@ html {
   box-sizing: border-box
 }
 
-body {
-  background-color: #f8f9fa;
-  /* Use a system font, if none are available use an available sans-sarif font */
-  font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
-        Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #181818;
+    color: white;
+    /* Use a system font, if none are available use an available sans-sarif font */
+    font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  header {
+    background-color: #404040;
+  }
+  #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
+    background-color: #282828;
+    color: #F8F9FA;
+  }
 }
+
 
 #juanSantiagoJpg {
   max-width: 400px;
@@ -16,10 +27,6 @@ body {
   border-radius: 20px;
 }
 
-header {
-  background-color: #212529;
-  text-align: center;
-}
 
 li {
   display: inline;
@@ -31,8 +38,6 @@ li {
 }
 
 #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
-  background-color: #6c757d;
-  color: #F8F9FA;
   min-width: 20px;
   min-height: 20px;
 }
@@ -90,7 +95,6 @@ footer {
 
 @media only screen and (min-width: 768px) {
   header {
-    background-color: #212529;
     text-align: right;
   }
   #main {
@@ -104,7 +108,6 @@ footer {
 
 @media only screen and (min-width: 1008px) {
   header {
-    background-color: #212529;
     text-align: right;
   }
   #main {
