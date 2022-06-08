@@ -66,6 +66,7 @@ ion-icon {
 
 #btns {
   padding: 0;
+  padding-right: 10px;
 }
 
 #card-container {
