@@ -9,6 +9,12 @@ The following is the link to the [portfolio](https://juan-santiago-portfolio-99.
 ![This is an image](assets/imgs/screen-shot-main-page.png)
 
 ## Technologies Used:
--Bootstrap 5.2
--Ionicons 5.5.2
--Google Fonts
+- Bootstrap 5.2
+- Ionicons 5.5.2
+- Google Fonts
+
+## Next Steps: 
+
+- AAU, I should be able to collapse and expand my resume.
+- AAU, I should be able to horizontally scroll through my works.
+- AAU, I should be able to have a mobile friendly way to view a pdf.
