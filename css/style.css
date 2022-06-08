@@ -2,6 +2,26 @@ html {
   box-sizing: border-box
 }
 
+@media (prefers-color-scheme: no-preference) {
+  body {
+    background-color: #181818;
+    color: #F8F9FA;
+    /* Use a system font, if none are available use an available sans-sarif font */
+    font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  }
+  header {
+    background-color: #404040;
+    text-align: center;
+  }
+  #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
+    background-color: #282828;
+    color: #F8F9FA;
+  }
+  .socialIcon {
+    color: #F8F9FA;
+  }
+}
 @media (prefers-color-scheme: dark) {
   body {
     background-color: #181818;
