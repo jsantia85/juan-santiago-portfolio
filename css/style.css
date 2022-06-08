@@ -48,9 +48,20 @@ ion-icon {
   font-size: 64px;
 }
 
-#contactSection, #aboutSection, #resumeSection, #workSection {
-  margin-top: 500px;
-  margin-bottom: 20px;
+#aboutSection {
+  margin-top: 100px;
+}
+
+#resumeSection{
+  margin-top: 100px;
+}
+
+#workSection {
+  margin-top: 100px;
+}
+
+#contactSection {
+  margin-top: 100px;
 }
 
 #btns {
@@ -63,6 +74,10 @@ ion-icon {
   flex-wrap: wrap;
   justify-content: center;
   width: 100%;
+}
+
+footer {
+  margin-top: 100px;
 }
 
 /* @media only screen and (min-width: 768px) {
@@ -97,3 +112,4 @@ ion-icon {
     width: 100%;
   }
 } */
+
