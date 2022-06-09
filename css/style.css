@@ -138,6 +138,11 @@ footer {
   color: black;
 }
 
+.btn-primary, .btn-secondary {
+  background-color: #181818;
+  border-color: #181818;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     text-align: right;
