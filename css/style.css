@@ -98,20 +98,10 @@ ion-icon {
   font-size: 64px;
 }
 
-#aboutSection {
+#aboutSection, #resumeSection, #workSection, #contactSection {
   margin-top: 100px;
-}
-
-#resumeSection{
-  margin-top: 100px;
-}
-
-#workSection {
-  margin-top: 100px;
-}
-
-#contactSection {
-  margin-top: 100px;
+  margin-bottom: 15px;
+  text-decoration: underline;
 }
 
 #btns {
