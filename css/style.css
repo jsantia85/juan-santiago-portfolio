@@ -56,11 +56,11 @@ html {
   header {
     background-color: #282828;
     text-align: center;
-    border: none;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
     background-color: #282828;
     color: #F8F9FA;
+    border: none;
   }
   .socialIcon {
     color: #181818;
@@ -138,6 +138,14 @@ footer {
 
 .fadeIn {
   opacity: 1;
+}
+
+.card-title {
+  color: black;
+}
+
+.card-text {
+  color: black;
 }
 
 @media only screen and (min-width: 768px) {
