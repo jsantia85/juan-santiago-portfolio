@@ -9,6 +9,10 @@ The following is the link to the [portfolio](https://juan-santiago-portfolio-99.
 ![This is an image](assets/imgs/screen-shot-main-page.png)
 
 ## Technologies Used:
+- CSS
+- Javascript
+- HTML
+- Git
 - Bootstrap 5.2
 - Ionicons 5.5.2
 - Google Fonts
