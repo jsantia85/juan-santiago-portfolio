@@ -15,8 +15,9 @@ html {
     text-align: center;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
-    background-color: #282828;
+    background-color: #404040;
     color: #F8F9FA;
+    border: none;
   }
   .socialIcon {
     color: #F8F9FA;
@@ -35,8 +36,9 @@ html {
     text-align: center;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
-    background-color: #282828;
+    background-color: #404040;
     color: #F8F9FA;
+    border: none;
   }
   .socialIcon {
     color: #F8F9FA;
@@ -54,9 +56,10 @@ html {
   header {
     background-color: #282828;
     text-align: center;
+    border: none;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
-    background-color: #404040;
+    background-color: #282828;
     color: #F8F9FA;
   }
   .socialIcon {
