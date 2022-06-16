@@ -51,11 +51,6 @@ ion-icon {
   width: 100%;
 }
 
-footer {
-  margin-top: 100px;
-}
-
-
 .title {
   opacity: 0;
   transition: opacity 3s ease;
