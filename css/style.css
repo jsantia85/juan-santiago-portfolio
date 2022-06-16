@@ -138,9 +138,82 @@ html {
     margin-bottom: 15px;
     text-decoration: underline;
   }
-  #contactSection, #resumeSection {
-    font-size: 15px;
+  #card-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+  }
+  .card-title {
+    color: black;
+  }
+  .card-text {
+    color: black;
+  }
+  .btn-primary, .btn-secondary {
+    background-color: #181818;
+    border-color: #181818;
+  }
+}
+
+@media only screen and (min-width: 1008px) {
+  .container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: .1fr .5fr .5fr .5fr;
+    grid-template-rows: 0.2fr .5fr .5fr 0.2fr;
+    grid-template-areas:
+      "nav nav nav nav"
+      "sidebar main main main"
+      "sidebar work work work"
+      "sidebar footer footer footer";
+    grid-gap: 0.4rem;
+    text-align: center;
+  }
+  nav {
+    text-align: right;
+    grid-area: nav;
+  }
+  main {
+    grid-area: main;
+  }
+  #sidebar {
+    grid-area: sidebar;
+  }
+  #work {
+    grid-area: work;
+  }
+  footer {
+    grid-area: footer;
+  }
+  li {
+    display: inline;
+  }
+  #juanSantiagoJpg {
+    max-width: 400px;
+    max-height: 400px;
+    margin: 30px 0px 30px 0px;
+    border-radius: 20px;
+  }  
+  .title {
     opacity: 0;
+    transition: opacity 3s ease;
+  }
+  .fadeIn {
+    opacity: 1;
+  }
+  .socialIcon {
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  ion-icon {
+    font-size: 32px;
+  }
+  #aboutSection, #resumeSection, #workSection, #contactSection {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-decoration: underline;
   }
   #card-container {
     display: flex;
@@ -159,7 +232,6 @@ html {
     background-color: #181818;
     border-color: #181818;
   }
-  
 }
 
 @media (prefers-color-scheme: no-preference) {
