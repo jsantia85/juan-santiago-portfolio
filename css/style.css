@@ -73,6 +73,21 @@ ion-icon {
   border-color: #181818;
 }
 
+@media only screen and (max-width: 550px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
+    grid-template-areas:
+      "nav"
+      "sidebar"
+      "main"
+      "content1"
+      "content2"
+      "content3"
+      "footer";
+  }
+}
+
 @media (min-width: 768px) {
   .container {
     display: grid;
@@ -93,7 +108,7 @@ ion-icon {
   }
   
   nav {
-    background: #ce8619;
+    text-align: right;
     grid-area: nav;
   }
   
@@ -120,28 +135,6 @@ ion-icon {
   li {
     display: inline;
   }
-  
-}
-
-@media only screen and (max-width: 550px) {
-  .container {
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.4fr 0.4fr 2.2fr 1.2fr 1.2fr 1.2fr 1fr;
-    grid-template-areas:
-      "nav"
-      "sidebar"
-      "main"
-      "content1"
-      "content2"
-      "content3"
-      "footer";
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  header {
-    text-align: right;
-  }
   #main {
     text-align: center;
     padding: 0 100px;
@@ -149,6 +142,7 @@ ion-icon {
   #btns {
     padding-right: 10px;
   }
+  
 }
 
 @media only screen and (min-width: 1008px) {
@@ -172,9 +166,8 @@ ion-icon {
     font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
-  header {
+  nav {
     background-color: #404040;
-    text-align: center;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
     background-color: #404040;
@@ -193,9 +186,8 @@ ion-icon {
     font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
-  header {
+  nav {
     background-color: #404040;
-    text-align: center;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
     background-color: #404040;
@@ -215,9 +207,8 @@ ion-icon {
     font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
-  header {
+  nav {
     background-color: #282828;
-    text-align: center;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
     background-color: #282828;
