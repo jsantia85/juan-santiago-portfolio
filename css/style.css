@@ -155,9 +155,13 @@ html {
     background-color: #181818;
     border-color: #181818;
   }
+  #btns {
+    margin: 0;
+    padding: 0;
+  }
 }
 
-@media only screen and (min-width: 1008px) {
+@media only screen and (min-width: 1000px) {
   .container {
     display: grid;
     height: 100vh;
@@ -174,6 +178,7 @@ html {
   nav {
     text-align: right;
     grid-area: nav;
+    align-self: end;
   }
   main {
     grid-area: main;
@@ -232,21 +237,37 @@ html {
     background-color: #181818;
     border-color: #181818;
   }
+  #btns {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 @media (prefers-color-scheme: no-preference) {
   body {
-    background-color: #181818;
+    background-color: #121212;
     color: #F8F9FA;
     /* Use a system font, if none are available use an available sans-sarif font */
     font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
   nav {
-    background-color: #404040;
+    background-color: #282828;
+  }
+  main {
+    background-color: #181818;
+  }
+  #sidebar {
+    background-color: #282828;
+  }
+  #work {
+    background-color: #181818;
+  }
+  footer {
+    background-color: #282828;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
-    background-color: #404040;
+    background-color: #282828;
     color: #F8F9FA;
     border: none;
   }
@@ -256,17 +277,29 @@ html {
 }
 @media (prefers-color-scheme: dark) {
   body {
-    background-color: #181818;
+    background-color: #121212;
     color: #F8F9FA;
     /* Use a system font, if none are available use an available sans-sarif font */
     font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
   nav {
-    background-color: #404040;
+    background-color: #282828;
+  }
+  main {
+    background-color: #181818;
+  }
+  #sidebar {
+    background-color: #282828;
+  }
+  #work {
+    background-color: #181818;
+  }
+  footer {
+    background-color: #282828;
   }
   #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
-    background-color: #404040;
+    background-color: #282828;
     color: #F8F9FA;
     border: none;
   }
@@ -277,17 +310,29 @@ html {
 
 @media (prefers-color-scheme: light) {
   body {
-    background-color: #FFFFFF;
-    color: #181818;
+    background-color: #F8F9FA;
+    color: #F8F9FA;
     /* Use a system font, if none are available use an available sans-sarif font */
     font-family: 'Kdam Thmor Pro', sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI",
           Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   }
   nav {
+    background-color: #B3B3B3;
+  }
+  main {
     background-color: #282828;
   }
-  #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
+  #sidebar {
+    background-color: #B3B3B3;
+  }
+  #work {
     background-color: #282828;
+  }
+  footer {
+    background-color: #B3B3B3;
+  }
+  #aboutBtn, #resumeBtn, #workBtn, #contactBtn {
+    background-color: #B3B3B3;
     color: #F8F9FA;
     border: none;
   }
