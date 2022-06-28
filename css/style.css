@@ -55,6 +55,7 @@ html {
   }
   ion-icon {
     font-size: 64px;
+    color: a4161a;
   }
   #aboutSection, #resumeSection, #workSection, #contactSection {
     margin-top: 100px;
@@ -215,11 +216,13 @@ html {
   ion-icon {
     font-size: 32px;
   }
+  
   #aboutSection, #resumeSection, #workSection, #contactSection {
     margin-top: 15px;
     margin-bottom: 15px;
     text-decoration: underline;
   }
+  
   #card-container {
     display: flex;
     flex-direction: row;
