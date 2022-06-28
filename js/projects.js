@@ -9,7 +9,7 @@ let projects = [
   { 
     title: "Portfolio",
     deployment: "https://juan-santiago-portfolio-99.netlify.app/",
-    image: "assets/imgs/portfolio-main-page.png",
+    image: "assets/imgs/Portfolio.png",
     gitHub: "https://github.com/jsantia85/juan-santiago-portfolio",
     description: "Personal Site"
   }
