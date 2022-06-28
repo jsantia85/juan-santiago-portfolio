@@ -1,5 +1,5 @@
 # Juan Santiago Portfolio
-![This is an image](assets/imgs/Portfolio-Main-Page.png)
+![This is an image](assets/imgs/Portfolio.png)
 
 The following app is my portfolio! This website was built using, HTML, CSS, and Javascript. In it you will find information about me, my resume that you can view/download, links to my projects, and links to my Github, Linkedin, and Email.
 
