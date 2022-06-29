@@ -21,8 +21,8 @@ let projects = [
     description: "Flight tracker built using MEN stack."
   },
   { 
-    title: "MoPower",
-    deployment: "https://juan-santiago-portfolio-99.netlify.app/",
+    title: "MoPower!",
+    deployment: "https://mo-power.herokuapp.com/",
     image: "assets/imgs/MoPower-Landing-Page.png",
     gitHub: "https://github.com/jsantia85/mo-power",
     description: "MoPower is a build tracker using MEN stack for car enthusiast!"
