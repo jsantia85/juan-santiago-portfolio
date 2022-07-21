@@ -26,6 +26,13 @@ let projects = [
     image: "assets/imgs/MoPower-Landing-Page.png",
     gitHub: "https://github.com/jsantia85/mo-power",
     description: "MoPower is a build tracker using MEN stack for car enthusiast!"
+  },
+  { 
+    title: "Code-Ipedia",
+    deployment: "https://code-ipedia.netlify.app/",
+    image: "assets/imgs/Code-Ipedia.png",
+    gitHub: "https://github.com/jsantia85/code-ipedia-front-end",
+    description: "Code-Ipedia is a MERN Stack CRUD application for saving and sharing code!"
   }
 ]
 
