@@ -1,17 +1,31 @@
 let projects = [
   { 
+    title: "Amped",
+    deployment: "https://jsamped.herokuapp.com/gear/",
+    image: "assets/imgs/ampedhomepage.png",
+    gitHub: "https://github.com/jsantia85/amped",
+    description: "Django Application for Saving the Music Equipment that You Own or Want to Own."
+  },
+  { 
+    title: "Resource Manager",
+    deployment: "https://js-resource-manager.netlify.app/",
+    image: "assets/imgs/RMLanding.png",
+    gitHub: "https://github.com/jsantia85/resource-manager-front-end",
+    description: "MERN Stack CRUD Application for Saving Resources."
+  },
+  { 
     title: "Code-Ipedia",
     deployment: "https://code-ipedia.netlify.app/",
     image: "assets/imgs/Code-Ipedia.png",
     gitHub: "https://github.com/jsantia85/code-ipedia-front-end",
-    description: "Code-Ipedia is a MERN Stack CRUD application for saving and sharing code!"
+    description: "MERN Stack CRUD application for saving and sharing code."
   },
   { 
     title: "MoPower!",
     deployment: "https://mo-power.herokuapp.com/",
     image: "assets/imgs/MoPower-Landing-Page.png",
     gitHub: "https://github.com/jsantia85/mo-power",
-    description: "MoPower is a build tracker using MEN stack for car enthusiast!"
+    description: "MEN Stack CRUD Application. Build Tracker for Car Enthusiast."
   },
   { 
     title: "Mongoose Flights",
