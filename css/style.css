@@ -2,7 +2,7 @@ html {
   box-sizing: border-box
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 799px) {
   .container {
     display: grid;
     height: 100vh;
