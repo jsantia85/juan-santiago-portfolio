@@ -1,5 +1,12 @@
 let projects = [
   { 
+    title: "React Tic-Tac-Toe",
+    deployment: "https://js-react-ttt.netlify.app/",
+    image: "assets/imgs/React-TTT.png",
+    gitHub: "https://github.com/jsantia85/react-ttt",
+    description: "React Application Built Using the React Tutorial, and styled by me."
+  },
+  { 
     title: "Amped",
     deployment: "https://jsamped.herokuapp.com/gear/",
     image: "assets/imgs/ampedhomepage.png",
