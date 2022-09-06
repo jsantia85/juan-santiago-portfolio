@@ -4,7 +4,7 @@ let projects = [
     deployment: "https://js-react-ttt.netlify.app/",
     image: "assets/imgs/React-TTT.png",
     gitHub: "https://github.com/jsantia85/react-ttt",
-    description: "React Application Built Using the React Tutorial, and styled by me."
+    description: "React Application Built Using the React Tutorial, and Styled by Me."
   },
   { 
     title: "Amped",
